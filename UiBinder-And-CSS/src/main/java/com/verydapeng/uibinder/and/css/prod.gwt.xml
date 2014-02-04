@@ -1,0 +1,8 @@
+<module rename-to="app">
+    <inherits name="com.google.gwt.user.User" />
+    <set-property name="ClientBundle.enableInlining" value="false" />
+    
+    <set-configuration-property name="CssResource.obfuscationPrefix" value="empty" />
+    <collapse-all-properties />
+    <entry-point class="com.verydapeng.uibinder.and.css.client.Entry" />
+</module>
