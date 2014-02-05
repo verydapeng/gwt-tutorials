@@ -1,4 +1,4 @@
 <module rename-to="app">
     <inherits name="com.google.gwt.user.User" />
-    <entry-point class="com.verydapeng.uibinder.and.css.client.Entry" />
+    <entry-point class="com.verydapeng.project.setup.client.Entry" />
 </module>
