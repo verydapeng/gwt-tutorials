@@ -1,0 +1,10 @@
+<module rename-to="app">
+    <inherits name="com.google.gwt.user.User" />
+    <extend-property name="locale" values="zh"/>
+    
+    <!--
+    if cookie is used, make sure neither meta nor locale url parameter is set
+    <set-configuration-property name="locale.cookie" value="lang"/>
+    -->
+    <entry-point class="com.verydapeng.i18n.client.Entry" />
+</module>

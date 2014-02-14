@@ -1,0 +1,4 @@
+<module rename-to="betslip">
+    <inherits name="com.verydapeng.i18n.prod" />
+    <set-configuration-property name="CssResource.style" value="pretty"/>
+</module>

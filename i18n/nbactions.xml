@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-gwt:run</actionName>
+            <displayName>gwt:run</displayName>
+            <goals>
+                <goal>war:exploded</goal>
+                <goal>gwt:i18n</goal>
+                <goal>gwt:run</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-gwt:i18n</actionName>
+            <displayName>gwt:i18n</displayName>
+            <goals>
+                <goal>gwt:i18n</goal>
+            </goals>
+        </action>
+    </actions>
