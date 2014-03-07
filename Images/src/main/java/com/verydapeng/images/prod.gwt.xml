@@ -1,0 +1,4 @@
+<module rename-to="app">
+    <inherits name="com.google.gwt.user.User" />
+    <entry-point class="com.verydapeng.images.client.Entry" />
+</module>
