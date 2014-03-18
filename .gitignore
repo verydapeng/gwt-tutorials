@@ -4,3 +4,5 @@
 /i18n/target/
 /Images/target/
 /SuperDevMode/target/
+/gwtjson-server/target/
+/gwtjson-client/target/

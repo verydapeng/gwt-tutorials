@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>run</actionName>
+            <packagings>
+                <packaging>war</packaging>
+                <packaging>ear</packaging>
+                <packaging>ejb</packaging>
+            </packagings>
+            <goals>
+                <goal>package</goal>
+            </goals>
+            <properties>
+                <netbeans.deploy>true</netbeans.deploy>
+                <gwt.skip>true</gwt.skip>
+                
+            </properties>
+        </action>
+        <action>
+            <actionName>CUSTOM-gwt:run-codeserver</actionName>
+            <displayName>gwt:run-codeserver</displayName>
+            <goals>
+                <goal>gwt:run-codeserver</goal>
+            </goals>
+        </action>
+    </actions>
