@@ -1,0 +1,11 @@
+.appleBackground {
+    background-repeat: no-repeat;
+    background-image: appleUrl;
+    background-position: right center;
+}
+
+.orangeBackground {
+    background-repeat: no-repeat;
+    background-image: orangeUrl;
+    background-position: right center;
+}
